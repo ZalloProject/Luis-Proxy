@@ -1,0 +1,63 @@
+.page {
+	display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+	width: 80%;
+  height: 1750px;
+  background-color: white;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  width: -webkit-fill-available;
+  padding: 10px 40px 10px 40px;
+  background-color: rgb(0, 106, 255);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.zallo:hover {
+  cursor: pointer;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.address {
+  display: flex;
+  align-self: flex-end;
+  color: #2A2A33;
+  padding: 10px 40px 10px 0px;
+}
+
+.middle {
+  display: flex;
+}
+
+#form-service {
+  z-index: 1;
+  background-color: white;
+  margin-left: 20px;
+}
+  
+#similar-homes {
+  align-self: flex-start;
+  margin: 20px 0px 0px 20px;
+}
+
+#photos {
+  height: 380px;
+}
+
+#gendesc {
+  margin-top: 60px;
+}
