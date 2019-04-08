@@ -1,13 +1,8 @@
 const express = require('express');
-let app = express();
-const bodyParser = require('body-parser');
+
 const port = 8080;
+let app = express();
 
 app.use(express.static(__dirname));
-app.use(bodyParser.json());
-
-app.get('/', (req, res) => {
-
-});
 
 app.listen(port);
