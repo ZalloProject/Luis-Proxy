@@ -1,12 +1,12 @@
 .style__mainContainer___3vB1T {
     overflow: scroll !important;
-    width: 85vw !important;
+    width: 100% !important;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 90vw;
     padding: 5px 20px 5px 20px;
     background-color: rgb(0, 106, 255);
     color: white;
@@ -17,7 +17,6 @@
 .address {
     display: flex;
     justify-content: flex-end;
-    padding-right: 75px;
 }
 
 #form-service {
@@ -27,12 +26,15 @@
 
 .style__similarHomesSlidesContainer__lQ0TP {
     flex-direction: column;
+}
+
+.style__similarHomesCarousel__3gRr- {
     position: relative;
     left: 40px;
 }
 
 .styles__containerMain___lRtqU {
-    width: 85vw !important;
+    width: 100vw !important;
 }
 
 .style__similarHomesSeeAll__1uP5n {
