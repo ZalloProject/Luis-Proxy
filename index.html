@@ -1,30 +1,72 @@
 <html lang="en">
-<head>
+  <head>
     <title>Zallo</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" media="screen and (min-width: 601px)" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobileCSS.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 601px)"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="mobileCSS.css"
+    />
+  </head>
+  <body>
     <div class="page">
-        <div class="container">
-            <div class="navbar"><span class="zallo">ZALLO</span><span class="close">Close</span></div>
-            <div class="address">123 Main St, Chandler, AZ 85225</div>
-            <div id="photos"></div>
-            <div class="middle">
-                <div id="gendesc"></div>
-                <div id="form-service"></div>
-            </div>
-            <div id="similar-homes"></div>
-        </div>
+      <div class="top-bars">
+        <div id="super-top-nav-bar"></div>
+        <div id="search-bar"></div>
+      </div>
+      <div class="main-content">
+        <div id="map"></div>
+        <div id="results"></div>
+      </div>
     </div>
-        
-    <script async defer src="https://s3.us-east-2.amazonaws.com/fecappfiles/bundle.js"></script>
-    <script async defer src="https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/form-service/bundleGZ.js"></script>
-    <script async defer src="https://s3-us-west-1.amazonaws.com/zallosimilarhomes/bundle-gz.js"></script>
-    <script async defer src="https://s3-us-west-1.amazonaws.com/zallo-project-gendesc-service/app-bundle.gz.js"></script>
-</body>
+    <script src="https://s3-us-west-1.amazonaws.com/map-bucket-zallo/app-bundle.gz.js"></script>
+    <script
+      async
+      defer
+      src="https://s3.us-east-2.amazonaws.com/fecappfiles/bundleSearchGZ.js"
+    ></script>
+    <script
+      async
+      defer
+      src="https://s3-us-west-1.amazonaws.com/zallosimilarhomes/results-bundle-gz.js"
+    ></script>
+    <script
+      async
+      defer
+      src="https://s3.us-east-2.amazonaws.com/fecappfiles/bundle.js"
+    ></script>
+    <script
+      async
+      defer
+      src="https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/form-service/bundleGZ.js"
+    ></script>
+    <script
+      async
+      defer
+      src="https://s3-us-west-1.amazonaws.com/zallosimilarhomes/bundle-gz.js"
+    ></script>
+    <script
+      async
+      defer
+      src="https://s3-us-west-1.amazonaws.com/zallo-project-gendesc-service/app-bundle.gz.js"
+    ></script>
+    <script
+      async
+      defer
+      src="https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/super-top-nav-bar/bundleGZ.js"
+    ></script>
+    <script>
+      document.querySelector(
+        ".styles__xOut___3OSz2"
+      ).innerHTML = `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.0 0.0 495.0997375328084 430.5826771653543" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10"><clipPath id="p.0"><path d="m0 0l495.09973 0l0 430.58267l-495.09973 0l0 -430.58267z" clip-rule="nonzero"/></clipPath><g clip-path="url(#p.0)"><path fill="#ffffff" fill-opacity="0.0" d="m0 0l495.09973 0l0 430.58267l-495.09973 0z" fill-rule="evenodd"/><g filter="url(#shadowFilter-p.1)"><use xlink:href="#p.1" transform="matrix(1.0 0.0 0.0 1.0 0.0 2.0)"/></g><defs><filter id="shadowFilter-p.1" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="2.0" result="blur"/><feComponentTransfer in="blur" color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0" intercept="0.0"/><feFuncG type="linear" slope="0" intercept="0.0"/><feFuncB type="linear" slope="0" intercept="0.0"/><feFuncA type="linear" slope="0.5" intercept="0"/></feComponentTransfer></filter></defs><g id="p.1"><path fill="#ffffff" fill-opacity="0.0" d="m24.919947 418.50412l445.25983 -406.4252" fill-rule="evenodd"/><path stroke="#ffffff" stroke-width="65.0" stroke-linejoin="round" stroke-linecap="butt" d="m24.919947 418.50412l445.25983 -406.4252" fill-rule="evenodd"/></g><g filter="url(#shadowFilter-p.2)"><use xlink:href="#p.2" transform="matrix(1.0 0.0 0.0 1.0 0.0 2.0)"/></g><defs><filter id="shadowFilter-p.2" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="2.0" result="blur"/><feComponentTransfer in="blur" color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0" intercept="0.0"/><feFuncG type="linear" slope="0" intercept="0.0"/><feFuncB type="linear" slope="0" intercept="0.0"/><feFuncA type="linear" slope="0.5" intercept="0"/></feComponentTransfer></filter></defs><g id="p.2"><path fill="#ffffff" fill-opacity="0.0" d="m26.320248 10.771653l442.4567 409.03937" fill-rule="evenodd"/><path stroke="#ffffff" stroke-width="65.0" stroke-linejoin="round" stroke-linecap="butt" d="m26.320248 10.771653l442.4567 409.03937" fill-rule="evenodd"/></g></g></svg>`;
+    </script>
+  </body>
 </html>

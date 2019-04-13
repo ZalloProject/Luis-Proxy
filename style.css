@@ -1,10 +1,102 @@
 .page {
-	display: flex;
-  justify-content: center;
-  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: -webkit-fill-available;
 }
 
-.container {
+.top-bars {
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.main-content {
+  display: flex;
+}
+
+#mainContainer {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: -webkit-fill-available;
+  max-height: -webkit-fill-avaialable;
+  background-color: rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+}
+
+.styles__bigBOX___3-KEG {
+  margin-top: 20px;
+  margin: auto;
+  width: 51.5%;
+  background-color: #006aff;
+  overflow-y: scroll;
+  max-height: -webkit-fill-available;
+  flex-direction: column;
+}
+
+#popContainer {
+  top: 20px;
+  order: 2;
+  background-color: #fff;
+}
+
+.styles__xOut___3OSz2 {
+  margin: auto;
+  margin-right: 0;
+  order: 1;
+  padding: 10px 5px;
+}
+
+.style__superNavBuyModal___qCIeR {
+  left: 0 !important;
+  top: 89px !important;
+  padding-left: 20px !important;
+}
+
+.style__superNavAgentModal___SDwvO {
+  left: 0 !important;
+  top: 89px !important;
+  padding-left: 20px !important;
+}
+
+.style__superNavRentModal___1fwB8 {
+  left: 0 !important;
+  top: 89px !important;
+  padding-left: 20px !important;
+}
+
+.style__superNavSellModal___1wRXN {
+  left: 0 !important;
+  top: 89px !important;
+  padding-left: 20px !important;
+}
+
+.style__superNavLoansModal___2Dfr0 {
+  left: 0 !important;
+  top: 89px !important;
+  padding-left: 20px !important;
+}
+
+#popContainer {
+}
+
+.googleMapContainer {
+  width: 64vw !important;
+}
+
+#results {
+  z-index: 2;
+  width: 36vw;
+  margin: auto;
+  margin-right: 0;
+  padding-left: 5px;
+  padding-bottom: 131px;
+  box-shadow: -4px 0px 4px -2px #c3c3c3;
+}
+
+/* .container {
   display: flex;
   flex-direction: column;
 	width: 80%;
@@ -61,4 +153,4 @@
 
 #gendesc {
   margin-top: 60px;
-}
+} */
