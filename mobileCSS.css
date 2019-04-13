@@ -1,33 +1,110 @@
-.style__mainContainer___3vB1T {
-  overflow: scroll !important;
+.top-bars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 6;
+}
+
+.style__inputContainer___yP0cQ {
+  margin-left: 5px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.googleMapContainer {
+  width: 85vw !important;
+}
+
+#results {
+  width: 85vw;
+}
+
+.style__results-more-filters-dd__3tk6K {
+  left: 50% !important;
+}
+
+.style__results-homes__3tpJi {
+  justify-content: center;
+}
+
+.style__results-buttons__1Ca8W {
   width: 100% !important;
 }
 
 .mainContainer {
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+  width: 100vw !important;
+  display: none;
   background-color: #fff;
   position: absolute;
   top: 0;
+  left: 0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 90vw;
   padding: 5px 20px 5px 20px;
   background-color: rgb(0, 106, 255);
   color: white;
   font-size: 20px;
   font-weight: 600;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .address {
   display: flex;
   justify-content: flex-end;
+  padding: 5px;
+  margin-top: 35px;
+}
+
+#photos {
+  width: 100vw;
+}
+
+.containerMid {
+  display: flex;
+  flex-direction: column;
+}
+
+#gendesc {
+  width: 100vw;
+}
+
+.styles__containerMain___lRtqU {
+  width: 95vw !important;
+  margin: 20px !important;
+}
+
+#styles__calculatorMain___2v0RA {
+  right: 0 !important;
 }
 
 #form-service {
-  position: relative;
-  left: 115px;
+  margin: auto;
+}
+
+.similar-homes-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.style__similarHomesHeader__1rbsb {
+  margin-left: 0px;
+  align-self: center;
 }
 
 .style__similarHomesSlidesContainer__lQ0TP {
@@ -35,21 +112,10 @@
 }
 
 .style__similarHomesCarousel__3gRr- {
-  position: relative;
-  left: 40px;
-}
-
-.styles__containerMain___lRtqU {
-  width: 100vw !important;
+  display: flex;
+  align-self: center;
 }
 
 .style__similarHomesSeeAll__1uP5n {
-  position: relative;
-  margin-left: 0px !important;
-  left: 180px;
-}
-
-.style__similarHomesHeader__1rbsb {
-  position: relative;
-  left: 130px;
+  margin: 5px auto !important;
 }
